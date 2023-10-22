@@ -4,8 +4,6 @@
 #include <ros/package.h>
 #include <eigen3/Eigen/Dense>
 #include "utility/utility.h"
-#include <opencv2/opencv.hpp>
-#include <opencv2/core/eigen.hpp>
 
 #include <std_msgs/Header.h>
 #include <std_msgs/Bool.h>
@@ -28,6 +26,9 @@
 #include <pcl/filters/voxel_grid.h>
 #include <pcl/filters/crop_box.h> 
 #include <pcl_conversions/pcl_conversions.h>
+
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/eigen.hpp>
 
 #include <tf/LinearMath/Quaternion.h>
 #include <tf/transform_listener.h>
